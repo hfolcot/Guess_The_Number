@@ -13,6 +13,7 @@ const initGame = function () {
     document.querySelector('.number').textContent = '?';
     document.querySelector('body').style.backgroundColor = 'black';
     document.querySelector('.guess').value = 0;
+    infoText.textContent = "Start guessing...";
     win = false;
     score = 20;
 }
